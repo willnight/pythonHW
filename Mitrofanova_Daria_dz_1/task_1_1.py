@@ -4,14 +4,17 @@
 # до суток: <h> час <m> мин <s> сек;
 # * в остальных случаях: <d> дн <h> час <m> мин <s> сек.
 
-input_seconds = 400153
+input_seconds = 455977
+
+seconds_in_day = 86400
+seconds_in_hour = 3600
 # input_seconds = int(input("Введите секунды: "))
 # print(input_seconds, 'сек')
 if input_seconds >= 0:
-    days = input_seconds // (60 * 60 * 24)
-    hours = (input_seconds // 3600) - (24 * days)
-    minutes = (input_seconds // 60) - (60 * hours) - (days * 24 * 60)
-    seconds = input_seconds - ((hours * 3600) + (minutes * 60) + (days * 24 * 60 * 60))
+    days = input_seconds // seconds_in_day
+    hours = input_seconds % seconds_in_day // seconds_in_hour
+    minutes = input_seconds % seconds_in_day % seconds_in_hour // 60
+    seconds = input_seconds % seconds_in_day % seconds_in_hour % 60
 
     time_values = [days, hours, minutes, seconds]
     time_values_suffix = [" дн ", " ч ", " мин ", " сек "]

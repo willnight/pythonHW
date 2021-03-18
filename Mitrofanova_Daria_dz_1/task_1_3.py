@@ -18,8 +18,7 @@ for input_string in input_strings_for_test:
 
     if last_digit == 1:
         sec_string_ending = ''
-
-    if last_digit in range(2, 5):
+    elif last_digit in range(2, 5):
         sec_string_ending = 'а'
 
     if 14 >= two_last_digits >= 11:
