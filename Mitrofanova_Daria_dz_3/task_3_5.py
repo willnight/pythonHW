@@ -14,19 +14,18 @@ from random import choice
 # (когда каждое слово можно использовать только в одной шутке)?  - да
 # Сможете ли вы сделать аргументы именованными? - да
 
-nouns = ["автомобиль", "лес", "огонь", "город", "дом"]
-adverbs = ["сегодня", "вчера", "завтра", "позавчера", "ночью"]
-adjectives = ["веселый", "яркий", "зеленый", "утопичный", "мягкий"]
-
 
 def get_jokes(num, can_repeat=True):
     """
-      Generates random jokes from 3 lists - 1 word from each list
+          Generates random jokes from 3 lists - 1 word from each list
 
-      :param int num: jokes repeats
-      :param bool can_repeat: can words repeats
-      :return: list of jokes
-    """
+          :param int num: jokes repeats
+          :param bool can_repeat: can words repeats
+          :return: list of jokes
+        """
+    nouns = ["автомобиль", "лес", "огонь", "город", "дом"]
+    adverbs = ["сегодня", "вчера", "завтра", "позавчера", "ночью"]
+    adjectives = ["веселый", "яркий", "зеленый", "утопичный", "мягкий"]
 
     jokes = []
     if can_repeat:
