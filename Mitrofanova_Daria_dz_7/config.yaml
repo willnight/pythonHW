@@ -1,0 +1,21 @@
+my_project:
+  settings:
+    __init__.py: True
+    dev.py: True
+    prod.py: True
+  mainapp:
+    __init__.py: True
+    models.py: True
+    views.py: True
+    templates:
+      mainapp:
+        base.html: True
+        index.html: True
+  authapp:
+    __init__.py: True
+    models.py: True
+    views.py: True
+    templates:
+      authapp:
+        base.html: True
+        index.html: True
