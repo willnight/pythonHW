@@ -1,0 +1,31 @@
+{
+  "my_project": {
+    "settings": {
+      "__init__.py": true,
+      "dev.py": true,
+      "prod.py": true
+    },
+    "mainapp": {
+      "__init__.py": true,
+      "models.py": true,
+      "views.py": true,
+      "templates": {
+        "mainapp": {
+          "base.html": true,
+          "index.html": true
+        }
+      }
+    },
+    "authapp": {
+      "__init__.py": true,
+      "models.py": true,
+      "views.py": true,
+      "templates": {
+        "authapp": {
+          "base.html": true,
+          "index.html": true
+        }
+      }
+    }
+  }
+}

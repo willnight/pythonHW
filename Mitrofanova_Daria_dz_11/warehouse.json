@@ -1,0 +1,35 @@
+{
+    "capacity": 3,
+    "cells": [
+        {
+            "equip": {
+                "color": "red",
+                "name": "Epson Printer",
+                "size": "30cm",
+                "type": "Принтер",
+                "weight": 34
+            },
+            "id": 1,
+            "unit": {
+                "city": "Санкт-Петербург",
+                "code": 78
+            }
+        },
+        {
+            "equip": {
+                "color": "red",
+                "name": "Epson Printer",
+                "size": "30cm",
+                "type": "Принтер",
+                "weight": 34
+            },
+            "id": 2,
+            "unit": {
+                "city": "Республика Карелия",
+                "code": 10
+            }
+        }
+    ],
+    "freeCells": 1,
+    "totalCells": 2
+}
