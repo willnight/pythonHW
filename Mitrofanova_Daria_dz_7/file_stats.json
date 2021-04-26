@@ -1,0 +1,121 @@
+{
+    "10": [
+        0,
+        []
+    ],
+    "100": [
+        1,
+        [
+            "txt"
+        ]
+    ],
+    "1000": [
+        9,
+        [
+            "svg",
+            "txt",
+            "vue",
+            "xlsx",
+            "ini"
+        ]
+    ],
+    "10000": [
+        19,
+        [
+            "xml",
+            "ogg",
+            "webp",
+            "kts",
+            "png",
+            "html",
+            "zip",
+            "csv",
+            "rar"
+        ]
+    ],
+    "100000": [
+        61,
+        [
+            "ogg",
+            "db",
+            "xlsm",
+            "doc",
+            "ipynb",
+            "exe",
+            "jpg_large",
+            "kra",
+            "png",
+            "xlsx",
+            "zip",
+            "pdf",
+            "rtf",
+            "docx",
+            "torrent",
+            "jpg",
+            "ai",
+            "rar"
+        ]
+    ],
+    "1000000": [
+        79,
+        [
+            "xml",
+            "doc",
+            "nex",
+            "php",
+            "jpg_large",
+            "pptx",
+            "kra",
+            "png",
+            "html",
+            "xlsx",
+            "zip",
+            "pdf",
+            "pbix",
+            "docx",
+            "xlsm",
+            "jpg",
+            "ai",
+            "rar"
+        ]
+    ],
+    "10000000": [
+        52,
+        [
+            "doc",
+            "mp4",
+            "pptx",
+            "kra",
+            "eps",
+            "zip",
+            "pdf",
+            "docx",
+            "jpg",
+            "ai",
+            "apk"
+        ]
+    ],
+    "100000000": [
+        22,
+        [
+            "aab",
+            "bmp",
+            "msi",
+            "exe",
+            "mp4",
+            "psd",
+            "zip",
+            "pdf"
+        ]
+    ],
+    "1000000000": [
+        7,
+        [
+            "exe",
+            "mp4",
+            "zip",
+            "7z",
+            "rar"
+        ]
+    ]
+}
